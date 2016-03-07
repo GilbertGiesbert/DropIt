@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,11 +16,58 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NgP-3v-tU3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HBl-QH-G4x" appends="YES" id="Mf5-5J-KCX"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87189210770000003" green="0.94716583030000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NgP-3v-tU3" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="98v-ou-MTc"/>
+                            <constraint firstItem="NgP-3v-tU3" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="I4K-76-yvG"/>
+                            <constraint firstItem="NgP-3v-tU3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Y08-qi-v6L"/>
+                            <constraint firstAttribute="bottom" secondItem="NgP-3v-tU3" secondAttribute="bottom" constant="20" symbolic="YES" id="eZF-MI-9RU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NgP-3v-tU3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="98v-ou-MTc"/>
+                                <exclude reference="I4K-76-yvG"/>
+                                <exclude reference="Y08-qi-v6L"/>
+                                <exclude reference="eZF-MI-9RU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NgP-3v-tU3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="98v-ou-MTc"/>
+                                <include reference="I4K-76-yvG"/>
+                                <include reference="Y08-qi-v6L"/>
+                                <include reference="eZF-MI-9RU"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="gameView" destination="NgP-3v-tU3" id="EB2-MJ-yML"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HBl-QH-G4x">
+                    <connections>
+                        <action selector="tap:" destination="vXZ-lx-hvc" id="BUf-A6-kBg"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="339" y="406.5"/>
         </scene>
     </scenes>
 </document>
