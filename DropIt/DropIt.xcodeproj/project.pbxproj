@@ -14,6 +14,7 @@
 		EC88A8B91C8DDE99000A64F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC88A8B81C8DDE99000A64F0 /* Images.xcassets */; };
 		EC88A8BC1C8DDE99000A64F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC88A8BA1C8DDE99000A64F0 /* LaunchScreen.xib */; };
 		EC88A8C81C8DDE99000A64F0 /* DropItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88A8C71C8DDE99000A64F0 /* DropItTests.m */; };
+		EC88A8D31C8DF45A000A64F0 /* DropItBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88A8D21C8DF45A000A64F0 /* DropItBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EC88A8C11C8DDE99000A64F0 /* DropItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC88A8C61C8DDE99000A64F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC88A8C71C8DDE99000A64F0 /* DropItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropItTests.m; sourceTree = "<group>"; };
+		EC88A8D11C8DF45A000A64F0 /* DropItBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropItBehavior.h; sourceTree = "<group>"; };
+		EC88A8D21C8DF45A000A64F0 /* DropItBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropItBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				EC88A8B21C8DDE99000A64F0 /* ViewController.h */,
 				EC88A8B31C8DDE99000A64F0 /* ViewController.m */,
 				EC88A8B51C8DDE99000A64F0 /* Main.storyboard */,
+				EC88A8D11C8DF45A000A64F0 /* DropItBehavior.h */,
+				EC88A8D21C8DF45A000A64F0 /* DropItBehavior.m */,
 				EC88A8B81C8DDE99000A64F0 /* Images.xcassets */,
 				EC88A8BA1C8DDE99000A64F0 /* LaunchScreen.xib */,
 				EC88A8AB1C8DDE99000A64F0 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC88A8B41C8DDE99000A64F0 /* ViewController.m in Sources */,
+				EC88A8D31C8DF45A000A64F0 /* DropItBehavior.m in Sources */,
 				EC88A8B11C8DDE99000A64F0 /* AppDelegate.m in Sources */,
 				EC88A8AE1C8DDE99000A64F0 /* main.m in Sources */,
 			);
