@@ -15,6 +15,7 @@
 		EC88A8BC1C8DDE99000A64F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC88A8BA1C8DDE99000A64F0 /* LaunchScreen.xib */; };
 		EC88A8C81C8DDE99000A64F0 /* DropItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88A8C71C8DDE99000A64F0 /* DropItTests.m */; };
 		EC88A8D31C8DF45A000A64F0 /* DropItBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88A8D21C8DF45A000A64F0 /* DropItBehavior.m */; };
+		EC88A8D61C8F46F8000A64F0 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88A8D51C8F46F8000A64F0 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		EC88A8C71C8DDE99000A64F0 /* DropItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropItTests.m; sourceTree = "<group>"; };
 		EC88A8D11C8DF45A000A64F0 /* DropItBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropItBehavior.h; sourceTree = "<group>"; };
 		EC88A8D21C8DF45A000A64F0 /* DropItBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropItBehavior.m; sourceTree = "<group>"; };
+		EC88A8D41C8F46F8000A64F0 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		EC88A8D51C8F46F8000A64F0 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				EC88A8B21C8DDE99000A64F0 /* ViewController.h */,
 				EC88A8B31C8DDE99000A64F0 /* ViewController.m */,
 				EC88A8B51C8DDE99000A64F0 /* Main.storyboard */,
+				EC88A8D41C8F46F8000A64F0 /* BezierPathView.h */,
+				EC88A8D51C8F46F8000A64F0 /* BezierPathView.m */,
 				EC88A8D11C8DF45A000A64F0 /* DropItBehavior.h */,
 				EC88A8D21C8DF45A000A64F0 /* DropItBehavior.m */,
 				EC88A8B81C8DDE99000A64F0 /* Images.xcassets */,
@@ -226,6 +231,7 @@
 			files = (
 				EC88A8B41C8DDE99000A64F0 /* ViewController.m in Sources */,
 				EC88A8D31C8DF45A000A64F0 /* DropItBehavior.m in Sources */,
+				EC88A8D61C8F46F8000A64F0 /* BezierPathView.m in Sources */,
 				EC88A8B11C8DDE99000A64F0 /* AppDelegate.m in Sources */,
 				EC88A8AE1C8DDE99000A64F0 /* main.m in Sources */,
 			);
